@@ -19,16 +19,23 @@ int main()
        }
     }
     
-    for(int l = 0; l < lin; l++){
-       
-       for(int c = 0; c < col; c++){
-           if(c==col-1){
-            printf("%d", matriz[l][c]);}
-           else{
-            printf("%d ", matriz[l][c]);}
-       }
-       printf("\n");
+    if(lin == 0 || col == 0){
+        printf("[matriz vazia]");
     }
+    else{
+        for(int l = 0; l < lin; l++){
+       
+           for(int c = 0; c < col; c++){
+               if(c==col-1){
+                printf("%d", matriz[l][c]);}
+               else{
+                printf("%d ", matriz[l][c]);}
+            }
+            
+            printf("\n");
+        }
+    }
+    
     
     for(int l = 0; l < lin; l++){
        
