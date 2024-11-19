@@ -3,7 +3,7 @@
 
 int main()
 {
-    int lin, col;
+    int lin, col; // linhas e colunas
     scanf("%d", &lin);
     scanf("%d", &col);
     
