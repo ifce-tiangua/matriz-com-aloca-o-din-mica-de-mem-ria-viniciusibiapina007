@@ -26,7 +26,9 @@ int main()
         for(int l = 0; l < lin; l++){
             
            for(int c = 0; c < col; c++){
-               printf("%d ", matriz[l][c]);
+               printf("%d", matriz[l][c]);
+               if(c < col-1){
+                printf(" ");
             }
             
             printf("\n");
