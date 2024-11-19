@@ -29,6 +29,7 @@ int main()
                printf("%d", matriz[l][c]);
                if(c < col-1){
                 printf(" ");
+               }
             }
             
             printf("\n");
