@@ -27,10 +27,9 @@ int main()
             
            for(int c = 0; c < col; c++){
                printf("%d", matriz[l][c]);
-               
-               if(c<col-1){
+               if(c<col-1)
                 printf(" ");
-               }
+               
             }
 
             printf("\n");
