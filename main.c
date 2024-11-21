@@ -4,7 +4,7 @@
 int main() {
 	int lin, col;
 	scanf("%d", &lin);
-	scanf("%d", &col);
+	scanf("%d", &col); 
 
 	int **matriz = (int**) malloc(lin * sizeof(int*));
 	if(lin == 0 || col == 0) {
@@ -38,6 +38,6 @@ int main() {
 	for(int i = 0; i < lin; i++) {
 		free(matriz[i]);
 	}
-	free(matriz);
+	free(matriz); // desaloca matriz
 	return 0;
 }
